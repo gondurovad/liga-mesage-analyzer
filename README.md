@@ -1,1 +1,3 @@
-# liga-mesage-analyzer
+# liga-message-analyzer
+
+## Сервис первичного анализа сообщений
