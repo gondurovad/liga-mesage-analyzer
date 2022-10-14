@@ -22,10 +22,19 @@
         <module>core</module>
     </modules>
 
+    <properties>
+        <spring.boot.amqp>2.7.4</spring.boot.amqp>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
+            <version>${spring.boot.amqp}</version>
         </dependency>
     </dependencies>
 </project>

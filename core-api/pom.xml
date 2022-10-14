@@ -19,5 +19,9 @@
             <groupId>liga.medical</groupId>
             <artifactId>message-analyzer-dto</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+        </dependency>
     </dependencies>
 </project>
