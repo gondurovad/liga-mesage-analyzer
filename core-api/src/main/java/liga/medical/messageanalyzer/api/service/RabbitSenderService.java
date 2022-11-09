@@ -1,8 +1,8 @@
 package liga.medical.messageanalyzer.api.service;
 
-import liga.medical.messageanalyzer.dto.MessageDTO;
+import liga.medical.common.dto.RabbitMessageDTO;
 
 public interface RabbitSenderService {
 
-    void sendMessage(MessageDTO dto, String queue) throws com.fasterxml.jackson.core.JsonProcessingException;
+    void sendMessage(RabbitMessageDTO dto, String queue) throws com.fasterxml.jackson.core.JsonProcessingException;
 }
